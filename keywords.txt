@@ -1,0 +1,14 @@
+# Syntax Coloring Map For StepperMotor
+
+# Datatypes (KEYWORD1)
+StepperMotor	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+set_pin_modes	KEYWORD2
+update_position	KEYWORD2
+calculate_delay_from_rpm	KEYWORD2
+step	KEYWORD2
+do_one_rotation	KEYWORD2
+rotate	KEYWORD2
+set_current_position_as_home	KEYWORD2
+go_to_position	KEYWORD2
