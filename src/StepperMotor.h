@@ -14,12 +14,12 @@ class StepperMotor
     int m_enable_pin;
     int m_direction_pin;
     int m_pulse_pin;
-    int m_steps_per_revolution;
     int m_max_rpm;
     bool m_hold_position;
-    bool m_is_home_position_set;
-    int m_steps_from_home;
   public:
+    int m_steps_per_revolution;
+    int m_steps_from_home;
+    bool m_is_home_position_set;
     StepperMotor(int enable_pin, int direction_pin, int pulse_pin, int steps_per_revolution, int max_rpm, bool hold_position);
     void set_pin_modes();
     void update_position(bool turn_clockwise);
